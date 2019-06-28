@@ -7,3 +7,5 @@
 
   <hr />
 <% end %>
+<!-- render page links in the view: -->
+<%= will_paginate @places, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
